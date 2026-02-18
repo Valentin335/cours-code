@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data (too large for git)
+**/data/*.csv
+**/data/*.json
+!**/data/*.example.*
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
