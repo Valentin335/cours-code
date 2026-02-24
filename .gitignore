@@ -9,6 +9,13 @@ venv/
 **/data/*.json
 !**/data/*.example.*
 
+# Generated
+**/results.csv
+
+# Markdown (except READMEs)
+*.md
+!README.md
+
 # OS
 .DS_Store
 
